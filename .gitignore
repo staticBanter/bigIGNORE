@@ -95,9 +95,6 @@ temp/
 # parcel-bundler cache (https://parceljs.org/)
 .parcel-cache
 
-# Maps
-*.map
-
 # IDEs and editors
 .editorconfig
 .project
