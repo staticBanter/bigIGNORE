@@ -1,26 +1,19 @@
 # Logs
-logs/
-*.log
-npm-debug.log*
-lerna-debug.log*
-build.log
-stacktrace.log
+[Ll]ogs/
+*.log*
 
 # Build Folders
-build/
-_build/
+*build/
 [Bb]in
 [Dd]ebug*/
-dist
+dist/
 
-# Diagnostic reports (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
-# Build Profile Reports
+# Diagnostic Reports and Profiles
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*
 *.profile*
 
 # Runtime data
-pids
+pids/
 *.pid
 *.seed
 *.pid.lock
@@ -29,15 +22,12 @@ pids
 lib-cov
 
 # Unit Test / Coverage Reports
-coverage
-*.lcov
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
 cover/
+coverage/
+*.coverage*
+*.cover*
+*.lcov*
+.nosetests.xml
 
 # nyc test coverage
 .nyc_output
@@ -49,7 +39,7 @@ cover/
 bower_components
 
 # node-waf configuration
-.lock-wscript
+*.lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
@@ -96,13 +86,10 @@ venv.bak/
 *.key
 
 # Cache, Temps and Dumps,
-## parcel-bundler cache (https://parceljs.org/)
-*.cache
-cache/
+*cache/
+*.cache*
 tmp/
 temp/
-thumbs/
-_thumbs/
 *.dump
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -128,20 +115,16 @@ render.experimental.xml
 .vs/
 
 # System Files
+thumbs/
+_thumbs/
 .DS_Store
-Thumbs.db
+[Tt]humbs.db
 
 # Next.js build output
 .next
 
 # Nuxt.js build / generate output
 .nuxt
-
-# Gatsby files
-.cache/
-# Comment in the public line in if your project uses Gatsby and *not* Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# public
 
 # vuepress build output
 .vuepress/dist
@@ -160,9 +143,6 @@ Thumbs.db
 
 # TernJS port file
 .tern-port
-
-# Maps
-*.map
 
 # Build and Release Folders
 bin-debug/
@@ -191,8 +171,7 @@ packages/
 *.exe~
 
 # Laravel Homestead.
-Homestead.yaml
-Homestead.json
+Homestead.*
 
 # Vagrant
 /.vagrant
